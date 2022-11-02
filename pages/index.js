@@ -4,9 +4,9 @@ const index = () => {
   return (
     <div className="grid place-items-center h-screen">
       <Head>
-        <title>Blog App</title>
+        <title>Home</title>
       </Head>
-      <h1 className="text-3xl text-center">Blog App</h1>
+      <h1 className="text-3xl">Home</h1>
     </div>
   )
 }
