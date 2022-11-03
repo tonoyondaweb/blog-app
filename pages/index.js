@@ -1,6 +1,12 @@
+import { useContext, useEffect } from "react"
 import Head from "next/head"
+import { tabContext } from "./_app"
 
 const index = () => {
+  const tab = useContext(tabContext)
+
+  useEffect(() => tab.setCurrentTab("Home"), [])
+
   return (
     <div className="grid place-items-center h-screen">
       <Head>
